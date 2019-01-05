@@ -4,3 +4,7 @@ function lowerCaseDrivers(drivers) {
     return elem.toLowerCase();
   });
 }
+
+function nameToAttributes() {
+  
+}
