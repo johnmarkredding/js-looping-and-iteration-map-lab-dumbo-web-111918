@@ -9,8 +9,8 @@ function nameToAttributes(drivers) {
   return drivers.map(function (driver) {
     let newDriver = {};
     let nameArr = driver.split(" ");
-    newDriver.firstName = "";
-    newDriver.lastName = "";
+    newDriver.firstName = nameArr[0];
+    newDriver.lastName = nameArr[1];
     return newDriver;
   });
 }
